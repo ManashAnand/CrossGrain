@@ -1,0 +1,68 @@
+.farmerLogin{
+    border: 2px solid black;
+    width: 75%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.farmerBox{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+.inputBox{
+    /* border: 2px solid red; */
+    border-top: none;
+}
+.spanChange {
+    border: 1px solid black;
+    background-color:   rgb(66, 133, 244);
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.spanChange:active{
+    /* transform: scale(0.57); */
+    background-color: red;  
+}
+
+.farmerLogin{
+    border: 2px solid black;
+    width: 75%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    opacity: 0.9;
+    background-color: rgb(253, 253, 253);
+}
+
+.farmerTag{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 10px 0;
+}
+.farmerBox{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+.inputBox{
+    /* border: 2px solid red; */
+    border-top: none;
+    /* padding: 4px; */
+}
+.spanChange {
+    /* border: 1px solid black; */
+    /* background-color:   rgb(66, 133, 244); */
+    color: rgb(61, 65, 153);
+    cursor: pointer;
+    transition: all 0.5s;
+    text-decoration: underline;
+}
+.spanChange:active{
+    /* transform: scale(0.57); */
+    color: red;  
+}

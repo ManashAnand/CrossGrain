@@ -1,0 +1,104 @@
+.navBar{
+    display: flex;
+    border: 2px solid;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: brown;
+    color: white;
+    font-size: 2rem;
+}
+.mainBox{
+    /* border: 2px solid red; */
+    max-height: 43.7rem;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+
+}
+
+.firstBox{
+    /* border: 2px solid red; */
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44rem;
+}
+.secondBox{
+    /* border: 2px solid gold; */
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44rem;
+}
+
+.farmerLogin{
+    border: 2px solid black;
+    height: 75%;
+    width: 75%;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Akaya+Telivigala&family=Cairo:wght@300&family=Dancing+Script&family=Merriweather:ital,wght@1,300;1,700&family=Playfair+Display&family=Redressed&family=Ubuntu&display=swap');
+
+.navBar{
+    display: flex;
+    /* border: 2px solid; */
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.6rem;
+    background-color: rgba(108, 110, 109, 0.279);
+
+}
+.navBar p{
+    font-size: 1.6rem;
+    font-weight: 900;
+    font-family: 'Playfair Display', serif;
+}
+
+.mainBox{
+    /* border: 2px solid red; */
+    max-height: 43.7rem;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    
+}
+
+.firstBox{
+    /* border: 2px solid red; */
+    width: 50%;
+    /* height: 80%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 44rem; */
+    height: 40.5rem;
+    background-image: url('../../asset/8');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* opacity: 0.7; */
+    
+}
+.secondBox{
+    /* border: 2px solid gold; */
+    width: 50%;
+    /* height: 80%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 44rem; */
+    height: 40.5rem;
+    background-image: url('../../asset/3.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* opacity: 0.7; */
+}
+
+.farmerLogin{
+    border: 2px solid black;
+    height: 75%;
+    width: 75%;
+
+}

@@ -1,0 +1,44 @@
+.openBox{
+    height: 75%;
+    width: 35%;
+    /* border: 2px solid red;   */
+    
+    background-image: url(../../asset/board.jpeg);
+    background-size: cover;
+    color: black;
+}
+.billingLine{
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:2rem;
+}
+.prodName{
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:2rem;
+}
+.prodDesc{
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:2rem;
+}
+.prodPrice{
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:2rem;
+}
+.btnBox{
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:2rem;
+}

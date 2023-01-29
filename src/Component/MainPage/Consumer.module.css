@@ -1,0 +1,33 @@
+.LogoutBtn{
+    margin-left: 2rem;
+}
+.headingConsumer{
+    /* border: 2px solid black; */
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fullScreen{
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+.container{
+    /* border: 2px solid ; */
+    /* height: 50rem;
+    width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid{
+    /* border: 2px solid black; */
+    width: 72%;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit,minmax(22rem,1fr));
+}
+.fedded{
+    margin-left: 48rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;}

@@ -1,0 +1,68 @@
+.mainBox{
+    /* border: 2px solid red; */
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    
+    background-image: url(../../asset/back2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.firstBox{
+    /* border: 2px solid blue; */
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    /* background-color: rgba(58, 47, 61, 0.636); */
+
+}
+
+.pieDesign{
+    /* display: none; */
+    height: 40rem;
+    width: 40rem;
+    font-weight: bold;
+}
+
+.secondBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    /* opacity: 0.8; */
+}
+
+.farmerPortion{
+    /* border: 2px solid black; */
+    height: 80%;
+    width: 80%;
+    background-color: rgba(218,209,196,0.867);
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+.qunatityRate{
+/* border: 2px solid black; */
+display: flex;
+}
+
+.filePlace{
+    /* border: 2px solid black;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inp{
+    cursor: pointer;
+}
+.same{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
