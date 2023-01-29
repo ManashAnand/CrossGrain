@@ -26,6 +26,9 @@ import cap from '../../asset/cap.jpeg';
 import man from '../../asset/man.jpeg';
 import bro from '../../asset/bro.jpeg';
 import app from '../../asset/app.jpeg';
+import { signOut } from "firebase/auth";
+import { useNavigate } from "react-router-dom";
+import {auth} from '../../Firebase/firebase'
 
 
 const Search = styled("div")(({ theme }) => ({
@@ -73,6 +76,12 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
 
 
 const Consumer = () => {
+  const navigate = useNavigate();
+    const handleSignOut = async ( ) => {
+      await signOut(auth);
+      navigate("/");
+    }
+
   const [searchTerm,setSearchTerm] = useState([]);
   const userCollectionRef = collection(db, "farmer");
   const [products, setProducts] = useState([
@@ -135,7 +144,7 @@ const Consumer = () => {
                 component="div"
                 sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
               >
-                MUI
+                CrossGrain
               </Typography>
 
               <Search onChange={handleChange}>
@@ -154,6 +163,7 @@ const Consumer = () => {
                 style={{
                   marginLeft: "2rem",
                 }}
+                onClick={handleSignOut}
               >
                 Logout
               </Button>
